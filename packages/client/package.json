@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@storySaver/core": "*",
+    "solid-js": "^1.7.12"
+  },
+  "devDependencies": {
+    "vite-plugin-solid": "^2.7.0"
+  },
+  "name": "@storySaver/client",
+  "private": true,
+  "scripts": {
+    "build": "NODE_ENV=production vite build --config ./vite.config.ts --mode production",
+    "clean": "rm -rf build dist tsconfig.tsbuildinfo",
+    "dev": "clear && NODE_ENV=development vite serve --config ./vite.config.ts --mode development"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}

@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "mongoose": "^7.5.2",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "^8.49.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "pnpm": "^8.8.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
+  },
+  "name": "@mfsn/root",
+  "private": true,
+  "scripts": {
+    "build-client": "npm run build -w ./packages/client",
+    "build-server": "npm run build -w ./packages/server",
+    "clean": "npm run clean --workspaces",
+    "client": "clear && npm run dev -w ./packages/client",
+    "lint": "eslint . --ext .ts,.tsx",
+    "purge": "rm -rf node_modules ./packages/*/node_modules",
+    "server": "clear && npm run dev -w ./packages/server",
+    "watch": "tsc -b -w"
+  },
+  "type": "module",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ]
+}

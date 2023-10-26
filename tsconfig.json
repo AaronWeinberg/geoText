@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig-base.json",
+
+  "compilerOptions": {
+    "target": "ESNext", // silence `useDefineForClassFields` warning
+    "noUnusedLocals": false // false in development. true in production
+  },
+
+  "files": [], // do not produce output
+
+  "references": [
+    {
+      "path": "./packages/core"
+    },
+    {
+      "path": "./packages/client"
+    },
+    {
+      "path": "./packages/server"
+    }
+  ]
+}

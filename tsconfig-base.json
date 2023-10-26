@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationMap": false,
+    "inlineSourceMap": true,
+
+    "moduleResolution": "nodenext",
+
+    "baseUrl": "./",
+
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    "noImplicitOverride": true,
+    "noImplicitAny": true,
+    "exactOptionalPropertyTypes": true,
+    "useDefineForClassFields": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "skipLibCheck": true,
+
+    "experimentalDecorators": true
+  }
+}

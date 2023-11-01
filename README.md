@@ -31,15 +31,3 @@ SERVER_PORT=<Server Port>
 ```sh
 npm run watch # run tsc on all projects
 ```
-
-### terminal 2
-
-```sh
-npm run server
-```
-
-### terminal 3
-
-```sh
-npm run client
-```

@@ -9,3 +9,7 @@ tsconfig.tsbuildinfo
 
 # env
 .env
+
+# oAuth2
+client_secret*
+oauth2.keys.json

@@ -12,5 +12,13 @@
     "dev": "clear && NODE_ENV=development node --watch --no-warnings --no-global-search-paths --disable-proto=delete --unhandled-rejections=strict ./build/app.js"
   },
   "type": "module",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {
+    "googleapis": "^128.0.0"
+  },
+  "devDependencies": {
+    "@google-cloud/local-auth": "^3.0.0",
+    "@types/node": "^20.8.10",
+    "google-auth-library": "^9.2.0"
+  }
 }

@@ -1,4 +1,15 @@
 {
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "google-auth-library": "^9.2.0",
+    "googleapis": "^128.0.0"
+  },
+  "devDependencies": {
+    "@types/gapi": "^0.0.47",
+    "@types/gapi.auth2": "^0.0.60",
+    "@types/node": "^20.9.0"
+  },
   "exports": {
     ".": {
       "import": "./build/index.js",
@@ -9,7 +20,8 @@
   "private": true,
   "scripts": {
     "clean": "rm -rf build dist tsconfig.tsbuildinfo",
-    "dev": "clear && NODE_ENV=development node --watch --no-warnings --no-global-search-paths --disable-proto=delete --unhandled-rejections=strict ./build/app.js"
+    "dev": "tsc -b && npm run monitor",
+    "monitor": "clear && NODE_ENV=development node --watch --no-warnings --no-global-search-paths --disable-proto=delete --unhandled-rejections=strict ./build/app.js"
   },
   "type": "module",
   "version": "1.0.0"

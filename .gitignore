@@ -1,11 +1,14 @@
-
-# node
-node_modules/
-build/
-dist/
-
-# typescript
-tsconfig.tsbuildinfo
+# credentials
+client_secret*
+token.json
 
 # env
 .env
+
+# node
+build/
+dist/
+node_modules/
+
+# typescript
+tsconfig.tsbuildinfo

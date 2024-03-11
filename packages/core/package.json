@@ -9,8 +9,11 @@
   "private": true,
   "scripts": {
     "clean": "rm -rf build dist tsconfig.tsbuildinfo",
-    "dev": "clear && NODE_ENV=development node --watch --no-warnings --no-global-search-paths --disable-proto=delete --unhandled-rejections=strict ./build/app.js"
+    "dev": "wait-on ./build && clear && NODE_ENV=development node --watch --no-warnings --no-global-search-paths --disable-proto=delete --unhandled-rejections=strict ./build/app.js"
   },
   "type": "module",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "devDependencies": {
+    "wait-on": "^7.2.0"
+  }
 }

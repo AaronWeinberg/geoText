@@ -5,12 +5,12 @@
 ## create new panes
 tmux rename-window 'storySaver';
 tmux split-window -h -p 33
-tmux split-window -v -t 1 -p 66;
+tmux split-window -v -t 1 -p 50;
+tmux split-window -v -t 1 -p 50;
 
 ## shell (-t 0)
-# tmux send-keys -t 0 'code .' Enter; # open vscode
+# tmux send-keys -t 0 'code . & clear' Enter; # open vscode
 tmux send-keys -t 0 'hx .' Enter; # open helix
-tmux send-keys -t 0 'clear' Enter;
 
 ## typescript watcher (-t 1)
 tmux send-keys -t 1 'npm run watch' Enter;

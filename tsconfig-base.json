@@ -5,7 +5,7 @@
     "declarationMap": false,
     "inlineSourceMap": true,
 
-    "moduleResolution": "nodenext",
+    // "moduleResolution": "nodenext",
 
     "baseUrl": "./",
 

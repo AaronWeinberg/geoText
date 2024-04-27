@@ -4,9 +4,9 @@
 
 ## create new panes
 tmux rename-window 'storySaver';
-tmux split-window -h -p 33
-tmux split-window -v -t 1 -p 50;
-tmux split-window -v -t 1 -p 50;
+tmux split-window -h -l 33%;
+tmux split-window -v -t 1;
+tmux split-window -v -t 1;
 
 ## shell (-t 0)
 # tmux send-keys -t 0 'code . & clear' Enter; # open vscode

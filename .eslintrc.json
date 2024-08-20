@@ -27,15 +27,9 @@
     "@typescript-eslint/await-thenable": "error",
     // "@typescript-eslint/ban-ts-comment": "error",
     // "@typescript-eslint/ban-tslint-comment": "error",
-    "@typescript-eslint/ban-types": ["warn"],
+    "@typescript-eslint/ban-types": "warn",
     // TS EXT
-    "@typescript-eslint/brace-style": [
-      "off",
-      "stroustrup",
-      {
-        "allowSingleLine": false
-      }
-    ],
+    "@typescript-eslint/brace-style": "off",
     "@typescript-eslint/comma-dangle": ["off", "never"],
     "@typescript-eslint/comma-spacing": [
       "warn",
@@ -104,7 +98,7 @@
       }
     ],
     // "@typescript-eslint/member-ordering": "warn",
-    "@typescript-eslint/method-signature-style": ["warn", "property"],
+    "@typescript-eslint/method-signature-style": 1,
     "@typescript-eslint/no-array-constructor": "error",
     // "@typescript-eslint/naming-convention": "warn",
     // "@typescript-eslint/no-base-to-string": "warn",
@@ -215,11 +209,9 @@
     //     "typedefs": true, "ignoreTypeReferences": true }],
     //     "@typescript-eslint/no-useless-constructor": "warn",
     //     "@typescript-eslint/no-useless-empty-export": "warn",
-    "@typescript-eslint/object-curly-spacing": [
-      "warn",
+    "stylistic/object-curly-spacing": [
       "always",
       {
-        "arraysInObjects": true,
         "objectsInObjects": true
       }
     ],
@@ -270,7 +262,7 @@
       }
     ],
     // "@typescript-eslint/require-await": "error",
-    "@typescript-eslint/return-await": ["error", "never"],
+    "@typescript-eslint/return-await": 0,
     "@typescript-eslint/semi": ["warn", "always"],
     "@typescript-eslint/space-before-blocks": "warn",
     "@typescript-eslint/space-before-function-paren": [

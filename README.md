@@ -1,5 +1,3 @@
-# storySaver
-
 ### deps
 
 ```sh
@@ -11,7 +9,7 @@ pnpm i # install node_modules without hoisting
 ### If on TMUX terminal, run the following startup script and ignore subsequent directions
 
 ```sh
-./storySaver.sh
+./geoText.sh
 ```
 
 ### Otherwise, run:

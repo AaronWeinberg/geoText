@@ -1,8 +1,8 @@
 {
-  "name": "storySaver",
+  "name": "geoText",
   "version": "2.0.0",
   "manifest_version": 3,
-  "description": "A brief description of my project",
+  "description": "Brings up a popout map of the geographical region being hovered over in text",
   "permissions": ["activeTab"],
   "action": {
     "default_popup": "./packages/core/src/popup.html",

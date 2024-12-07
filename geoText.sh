@@ -1,9 +1,9 @@
 ### ### ### ### ### ####
-#  storySaver startup  #
+#   geoText startup    #
 ### ### ### ### ### ####
 
 ## create new panes
-tmux rename-window 'storySaver';
+tmux rename-window 'geoText';
 tmux split-window -h -l 33%;
 tmux split-window -v -t 1;
 tmux split-window -v -t 1;

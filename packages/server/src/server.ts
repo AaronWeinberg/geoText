@@ -1,6 +1,6 @@
 import cors from '@fastify/cors';
 import fastifyMongodb from '@fastify/mongodb';
-import { port } from '@mfsn/core';
+import { port } from '@geoText/core';
 import Fastify from 'fastify';
 import mongoose from 'mongoose';
 // import routes from './routes/routes.js';

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ### ### ### ### ### ####
-#  MFSN startup  #
+##  geoText startup  ###
 ### ### ### ### ### ####
 
 ## remove generated files/directories and rebuild
@@ -10,7 +10,7 @@
 # tmux send-keys 'pnpm i' Enter;
 
 ## create new panes
-tmux rename-window 'MFSN'
+tmux rename-window 'geoText'
 tmux split-window -h # -p 33
 tmux split-window -v # -t 1 -p 66
 tmux split-window -v # -t 0 -p 33

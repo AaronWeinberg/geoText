@@ -1,4 +1,4 @@
-import { prefix } from '@mfsn/core';
+import { prefix } from '@geoText/core';
 import dotenv from 'dotenv';
 import { z } from 'zod';
 

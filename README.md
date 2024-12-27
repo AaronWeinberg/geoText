@@ -1,4 +1,6 @@
-# mfsn
+#!/bin/bash
+
+# geoText
 
 ### deps
 
@@ -13,7 +15,7 @@ pnpm i # install node_modules without hoisting
 ### If on TMUX terminal, run the following startup script
 
 ```sh
-./mfsn.sh
+./geoText.sh
 ```
 
 ### Otherwise, run:

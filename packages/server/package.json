@@ -2,7 +2,7 @@
   "dependencies": {
     "@fastify/cors": "^8.4.0",
     "@fastify/mongodb": "^8.0.0",
-    "@mfsn/core": "*",
+    "@geoText/core": "*",
     "dotenv": "^16.3.1",
     "fastify": "^4.23.2"
   },
@@ -10,7 +10,7 @@
     "@types/node": "~20.6.3",
     "pino-pretty": "^10.2.0"
   },
-  "name": "@mfsn/server",
+  "name": "@geoText/server",
   "private": true,
   "scripts": {
     "postinstall": "cp --update=none .env.default .env || true",

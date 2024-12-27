@@ -14,7 +14,7 @@
     "typescript": "^5.7.2",
     "vite": "^6.0.5"
   },
-  "name": "@mfsn/root",
+  "name": "@geoText/root",
   "private": true,
   "scripts": {
     "build": "tsc -b",

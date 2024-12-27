@@ -1,12 +1,12 @@
 {
   "dependencies": {
-    "@mfsn/core": "*",
+    "@geoText/core": "*",
     "solid-js": "^1.7.12"
   },
   "devDependencies": {
     "vite-plugin-solid": "^2.7.0"
   },
-  "name": "@mfsn/client",
+  "name": "@geoText/client",
   "private": true,
   "scripts": {
     "build": "NODE_ENV=production vite build --config ./vite.config.ts --mode production",

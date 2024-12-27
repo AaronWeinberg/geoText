@@ -1,0 +1,15 @@
+{
+  "exports": {
+    ".": {
+      "import": "./build/index.js",
+      "vite-x": "./src/index.ts"
+    }
+  },
+  "name": "@mfsn/core",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf build dist tsconfig.tsbuildinfo"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}

@@ -6,10 +6,10 @@
 
 ## create layout
 tmux rename-window 'geoText';
-tmux split-window -h;
-tmux split-window -v -t 1;
+tmux split-window -h -l 33%;
+tmux split-window -v -t 1 -l 60%;
 tmux split-window -h -t 1;
-tmux split-window -h -t 3;
+tmux split-window -v -t 3;
 
 ## run app
 tmux send-keys -t 0 'hx .' Enter; # editor
